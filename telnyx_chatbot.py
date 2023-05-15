@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import getpass
 import json
+import langchain
 # import deeplake
 from langchain.document_loaders import PyPDFLoader, TextLoader
 from langchain.embeddings.openai import OpenAIEmbeddings
