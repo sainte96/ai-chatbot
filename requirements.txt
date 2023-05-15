@@ -1,0 +1,10 @@
+beautifulsoup4 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_fa78jvo_0n/croot/beautifulsoup4-split_1681493044306/work
+deeplake==3.4.3
+fastjsonschema @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_43a0jaiddu/croots/recipe/python-fastjsonschema_1661368628129/work
+gitdb==4.0.10
+GitPython==3.1.31
+importlib-metadata==6.6.0
+numpy==1.24.3
+openai==0.27.6
+openapi-schema-pydantic==1.2.4
+
