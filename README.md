@@ -24,7 +24,11 @@ pip install -r requirements.txt
 ```
 4. The `documentation.json` file is already included in the repository. It is located in the data/ directory of the project.
 
-5. Run the Streamlit app from terminal by following the instructions provided in the [documentation.](https://docs.streamlit.io/library/get-started/installation)
+5. Run the Streamlit app from terminal by following the instructions provided in the [documentation.](https://docs.streamlit.io/library/get-started/installation) or
+```bash
+pip install streamlit
+streamlit run telnyx_chatbot.py
+```
 
 6. Access the app in your web browser at http://localhost:8501.
 
