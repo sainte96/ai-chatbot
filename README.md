@@ -10,7 +10,6 @@ Follow these steps to set up and run the project locally:
 
 ```bash
 git clone https://github.com/sainte96/ai-chatbot.git
-cd telnyx-ai-chatbot
 ```
 
 2. Create a virtual environment (optional but recommended):
