@@ -1,6 +1,6 @@
 # Telnyx AI Chatbot
 
-This repository contains the code for a Telnyx AI Chatbot, which provides answers to questions related to SMS guidelines in different countries.
+This repository contains the code for a Telnyx AI Chatbot, which provides answers to questions related to SMS guidelines in different countries. The chatbot gives answers to questions related to Telnyx SMS guidelines i.e it won't answer who is the president of United States. The chatbot was built entirely on python using the LangChain framework, OpenAI API and OpenAI Embeddings. The embeddings are saved in DeepLake vector database. For demonstration, the chatbot has been deployed on Streamlit. Please click [here](https://telnyxaichatbot.streamlit.app/) for demo
 
 ## Setup
 
