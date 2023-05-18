@@ -12,7 +12,7 @@ from langchain.llms import OpenAI
 
 # API keys needed for OpenAI and DeepLake. DeepLake API expires every 24hrs for free version so I generate new API every night. I am leaving my OpenAI API keys here for Telnyx testing purposes. I would create the app to ask for API keys from users subsequently.
 os.environ['OPENAI_API_KEY'] = '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'
-os.environ['ACTIVELOOP_TOKEN'] = 'eyJhbGciOiJIUzUxMiIsImlhdCI6MTY4NDIwNTQ4MywiZXhwIjoxNjg0MjkxODY0fQ.eyJpZCI6Im9vZ2lqbyJ9.0DNa5I1oa1nOWfI2sDWHg8xpg_5MBvuwlpWE3XKfbGek2Pqc95vWs0NFfBMIiwwEUcTEyBarryvSK18R_Efpwg'
+os.environ['ACTIVELOOP_TOKEN'] = 'eyJhbGciOiJIUzUxMiIsImlhdCI6MTY4NDI5MTE5MywiZXhwIjoxNjg1NjczNDE5fQ.eyJpZCI6Im9vZ2lqbyJ9.HXuvH11_E2pjfi86VPWGTySb6e-nX55Rp3RHxq0s2I_mHn5uIsHBOuL1izGz1j-jqp9YPlRSOHCqrInvogXIMQ'
 os.environ['ACTIVELOOP_ORG'] = 'hub://oogijo/dataset_name'
 
 # load json data. This block of code should be comment out after first run because the chatbot would access data from db subsequently and this will also improve performance. 
