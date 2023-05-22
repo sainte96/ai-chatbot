@@ -4,6 +4,8 @@ This repository contains the code for a Telnyx AI Chatbot, which provides answer
 
 OpenAI API key provided in this code might have been revoked automatically. Please kindly generate your own API keys by creating an account on [OpenAI Developer Platform](https://platform.openai.com/overview). Also, you can generate your own deeplake API key by [creating a free account](https://app.activeloop.ai/register/). If you decide to create a new deeplake vector database, remember to uncomment the part of the code that allows you store your embeddings in the database for the first. See line 34-37 on telnyx_chatbot.py
 
+Feel free to [reach out to me](https://linktr.ee/oogijo) if you want any of these free API keys.
+
 Happy Coding!!!
 
 ## Setup
