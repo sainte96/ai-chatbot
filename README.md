@@ -1,6 +1,10 @@
 # Telnyx AI Chatbot
 
-This repository contains the code for a Telnyx AI Chatbot, which provides answers to questions related to SMS guidelines in different countries. The chatbot provides answers to questions related to Telnyx SMS guidelines i.e it won't answer who is the president of United States. The chatbot was built entirely on python using the LangChain framework, OpenAI API and OpenAI Embeddings. The embeddings are saved in DeepLake vector database. For demonstration, the chatbot has been deployed on Streamlit. Please click [here](https://telnyxaichatbot.streamlit.app/) for demo
+This repository contains the code for a Telnyx AI Chatbot, which provides answers to questions related to SMS guidelines in different countries. The chatbot provides answers to questions related to Telnyx SMS guidelines i.e it won't answer who is the president of United States. The chatbot was built entirely on python using the LangChain framework, OpenAI API and OpenAI Embeddings. The embeddings are saved in DeepLake vector database. For demonstration, the chatbot has been deployed on Streamlit.
+
+OpenAI API key provided in this code might have been revoked automatically. Please kindly generate your own API keys by creating an account on [OpenAI Developer Platform](https://platform.openai.com/overview). Also, you can generate your own deeplake API key by [creating a free account](https://app.activeloop.ai/register/). If you decide to create a new deeplake vector database, remember to uncomment the part of the code that allows you store your embeddings in the database for the first. See line 34-37 on telnyx_chatbot.py
+
+Happy Coding!!!
 
 ## Setup
 
