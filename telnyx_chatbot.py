@@ -10,10 +10,14 @@ from langchain.chains import ConversationalRetrievalChain, RetrievalQA
 from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
 
+openai_api_key = input("Please enter your OpenAI API key: ")
+activeloop_token = input("Please enter your ActiveLoop Token: ")
+activeloop_org = input("Please enter your ActiveLoop Org: ")
+
 # API keys needed for OpenAI and DeepLake. DeepLake API expires every 24hrs for free version so I generate new API every night. I am leaving my OpenAI API keys here for Telnyx testing purposes. I would create the app to ask for API keys from users subsequently.
-os.environ['OPENAI_API_KEY'] = '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'
-os.environ['ACTIVELOOP_TOKEN'] = 'eyJhbGciOiJIUzUxMiIsImlhdCI6MTY4NDI5MTE5MywiZXhwIjoxNjg1NjczNDE5fQ.eyJpZCI6Im9vZ2lqbyJ9.HXuvH11_E2pjfi86VPWGTySb6e-nX55Rp3RHxq0s2I_mHn5uIsHBOuL1izGz1j-jqp9YPlRSOHCqrInvogXIMQ'
-os.environ['ACTIVELOOP_ORG'] = 'hub://oogijo/dataset_name'
+os.environ['OPENAI_API_KEY'] = openai_api_key
+os.environ['ACTIVELOOP_TOKEN'] = activeloop_token
+os.environ['ACTIVELOOP_ORG'] = activeloop_org
 
 # load json data. This block of code should be comment out after first run because the chatbot would access data from db subsequently and this will also improve performance. 
 def load_data():
